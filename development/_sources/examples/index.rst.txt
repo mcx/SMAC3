@@ -4,161 +4,34 @@
 
 .. _sphx_glr_examples:
 
-.. _examples:
-
-
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_quickstart:
-
-.. _quickstart:
-
-==========
-Quickstart
-==========
-
-Below are a curated list of examples to help get you up and running with SMAC.
-
-
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="Quickstart">
-
-.. only:: html
-
- .. figure:: /examples/quickstart/images/thumb/sphx_glr_quickstart_example_thumb.png
-
-     :ref:`sphx_glr_examples_quickstart_quickstart_example.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/quickstart/quickstart_example
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_function_minimization:
-
-.. _fmin_examples:
-
-=====================
-Function Minimization
-=====================
-
-
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="scipy-style fmin interface">
-
-.. only:: html
-
- .. figure:: /examples/function_minimization/images/thumb/sphx_glr_fmin_rosenbrock_example_thumb.png
-
-     :ref:`sphx_glr_examples_function_minimization_fmin_rosenbrock_example.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/function_minimization/fmin_rosenbrock_example
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_parallel:
-
-.. _parallel_examples:
-
-========
-Parallel
+Examples
 ========
 
+We provide several examples for both python and commandline. Practical use-cases were chosen to show the
+variety of SMAC.
 
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This example showcases how to use dask to launch parallel configurations via n_workers">
-
-.. only:: html
-
- .. figure:: /examples/parallel/images/thumb/sphx_glr_fmin_rosenbrock_parallel_example_thumb.png
-
-     :ref:`sphx_glr_examples_parallel_fmin_rosenbrock_parallel_example.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/parallel/fmin_rosenbrock_parallel_example
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This examples uses a real-valued SuccessiveHalving through epochs.">
-
-.. only:: html
-
- .. figure:: /examples/parallel/images/thumb/sphx_glr_parallel_sh_mlp_example_thumb.png
-
-     :ref:`sphx_glr_examples_parallel_parallel_sh_mlp_example.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/parallel/parallel_sh_mlp_example
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
 
 
 
-.. _sphx_glr_examples_SMAC4HPO:
+.. _sphx_glr_examples_commandline:
 
-.. _SMAC4HPO_examples:
-
-========
-SMAC4HPO
-========
-
+Commandline
+~~~~~~~~~~~
 
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using SMAC tuned for HPO for black-box optimization">
+    <div class="sphx-glr-thumbcontainer" tooltip="We optimize the SPEAR algorithm on QCP to demonstrate the powerful ROAR and SMAC4AC facade usin...">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4HPO/images/thumb/sphx_glr_SMAC4HPO_rosenbrock_example_thumb.png
+ .. figure:: /examples/commandline/images/thumb/sphx_glr_spear_qcp_thumb.png
+     :alt: SPEAR-QCP
 
-     :ref:`sphx_glr_examples_SMAC4HPO_SMAC4HPO_rosenbrock_example.py`
+     :ref:`sphx_glr_examples_commandline_spear_qcp.py`
 
 .. raw:: html
 
@@ -168,17 +41,18 @@ SMAC4HPO
 .. toctree::
    :hidden:
 
-   /examples/SMAC4HPO/SMAC4HPO_rosenbrock_example
+   /examples/commandline/spear_qcp
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="An example for the usage of SMAC within Python. We optimize a GradientBoosting on an artificial...">
+    <div class="sphx-glr-thumbcontainer" tooltip="This file is a wrapper used by SMAC to optimize parameters on the branin function. To run this ...">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4HPO/images/thumb/sphx_glr_SMAC4HPO_gradientboosting_example_thumb.png
+ .. figure:: /examples/commandline/images/thumb/sphx_glr_branin_thumb.png
+     :alt: Branin
 
-     :ref:`sphx_glr_examples_SMAC4HPO_SMAC4HPO_gradientboosting_example.py`
+     :ref:`sphx_glr_examples_commandline_branin.py`
 
 .. raw:: html
 
@@ -188,17 +62,18 @@ SMAC4HPO
 .. toctree::
    :hidden:
 
-   /examples/SMAC4HPO/SMAC4HPO_gradientboosting_example
+   /examples/commandline/branin
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Changing the acquisition function">
+    <div class="sphx-glr-thumbcontainer" tooltip="Restore Branin">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4HPO/images/thumb/sphx_glr_SMAC4HPO_acq_rosenbrock_example_thumb.png
+ .. figure:: /examples/commandline/images/thumb/sphx_glr_restore_branin_thumb.png
+     :alt: Restore Branin
 
-     :ref:`sphx_glr_examples_SMAC4HPO_SMAC4HPO_acq_rosenbrock_example.py`
+     :ref:`sphx_glr_examples_commandline_restore_branin.py`
 
 .. raw:: html
 
@@ -208,50 +83,29 @@ SMAC4HPO
 .. toctree::
    :hidden:
 
-   /examples/SMAC4HPO/SMAC4HPO_acq_rosenbrock_example
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="An example for the usage of SMAC within Python. We optimize a simple SVM on the IRIS-benchmark.">
-
-.. only:: html
-
- .. figure:: /examples/SMAC4HPO/images/thumb/sphx_glr_SMAC4HPO_svm_example_thumb.png
-
-     :ref:`sphx_glr_examples_SMAC4HPO_SMAC4HPO_svm_example.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/SMAC4HPO/SMAC4HPO_svm_example
+   /examples/commandline/restore_branin
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
 
 
 
-.. _sphx_glr_examples_SMAC4BB:
+.. _sphx_glr_examples_python:
 
-=======
-SMAC4BB
-=======
-
+Python
+~~~~~~
 
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="Using the black-box optimization interface of SMAC">
+    <div class="sphx-glr-thumbcontainer" tooltip="We optimize the SPEAR algorithm on QCP to demonstrate the powerful SMAC4AC facade. Algorithm an...">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4BB/images/thumb/sphx_glr_SMAC4BB_rosenbrock_example_thumb.png
+ .. figure:: /examples/python/images/thumb/sphx_glr_spear_mf_instances_thumb.png
+     :alt: SPEAR-QCP with Multi-Fidelity on Instances
 
-     :ref:`sphx_glr_examples_SMAC4BB_SMAC4BB_rosenbrock_example.py`
+     :ref:`sphx_glr_examples_python_spear_mf_instances.py`
 
 .. raw:: html
 
@@ -261,32 +115,18 @@ SMAC4BB
 .. toctree::
    :hidden:
 
-   /examples/SMAC4BB/SMAC4BB_rosenbrock_example
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_SMAC4MF:
-
-.. _SMAC4MF_examples:
-
-=======
-SMAC4MF
-=======
-
-
+   /examples/python/spear_mf_instances
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="An example for the usage of Hyperband intensifier in SMAC with multiple instances. We optimize ...">
+    <div class="sphx-glr-thumbcontainer" tooltip="Simple Multi-Objective">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4MF/images/thumb/sphx_glr_SMAC4MF_sgd_example_thumb.png
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_simple_multi_objective_thumb.png
+     :alt: Simple Multi-Objective
 
-     :ref:`sphx_glr_examples_SMAC4MF_SMAC4MF_sgd_example.py`
+     :ref:`sphx_glr_examples_python_plot_simple_multi_objective.py`
 
 .. raw:: html
 
@@ -296,17 +136,18 @@ SMAC4MF
 .. toctree::
    :hidden:
 
-   /examples/SMAC4MF/SMAC4MF_sgd_example
+   /examples/python/plot_simple_multi_objective
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="An example for the usage of Hyperband intensifier in SMAC. We optimize a simple MLP on the digi...">
+    <div class="sphx-glr-thumbcontainer" tooltip="An example of applying SMAC to optimize a synthetic function (2d rosenbrock function).">
 
 .. only:: html
 
- .. figure:: /examples/SMAC4MF/images/thumb/sphx_glr_SMAC4MF_mlp_example_thumb.png
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_synthetic_function_thumb.png
+     :alt: Synthetic Function with few Hyperparameters
 
-     :ref:`sphx_glr_examples_SMAC4MF_SMAC4MF_mlp_example.py`
+     :ref:`sphx_glr_examples_python_plot_synthetic_function.py`
 
 .. raw:: html
 
@@ -316,32 +157,18 @@ SMAC4MF
 .. toctree::
    :hidden:
 
-   /examples/SMAC4MF/SMAC4MF_mlp_example
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_hyperband:
-
-.. _hyperband_examples:
-
-=========
-Hyperband
-=========
-
-
+   /examples/python/plot_synthetic_function
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="An example for the usage of a model-free Hyperband intensifier in SMAC. The configurations are ...">
+    <div class="sphx-glr-thumbcontainer" tooltip="An example to optimize a simple SVM on the IRIS-benchmark with EIPS (EI per seconds) acquisitio...">
 
 .. only:: html
 
- .. figure:: /examples/hyperband/images/thumb/sphx_glr_hyperband_mlp_example_thumb.png
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_svm_eips_thumb.png
+     :alt: SVM with EIPS as acquisition functions
 
-     :ref:`sphx_glr_examples_hyperband_hyperband_mlp_example.py`
+     :ref:`sphx_glr_examples_python_plot_svm_eips.py`
 
 .. raw:: html
 
@@ -351,7 +178,133 @@ Hyperband
 .. toctree::
    :hidden:
 
-   /examples/hyperband/hyperband_mlp_example
+   /examples/python/plot_svm_eips
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="We optimize a GradientBoosting on an artificially created binary classification dataset. The re...">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_gb_non_deterministic_thumb.png
+     :alt: Non-Deterministic Gradient-Boosting
+
+     :ref:`sphx_glr_examples_python_plot_gb_non_deterministic.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_gb_non_deterministic
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="An example to optimize a simple SVM on the IRIS-benchmark. SMAC4HPO is designed for hyperparame...">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_svm_cv_thumb.png
+     :alt: SVM with Cross-Validation
+
+     :ref:`sphx_glr_examples_python_plot_svm_cv.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_svm_cv
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Example for optimizing a Multi-Layer Perceptron (MLP) using multiple instances.">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_sgd_instances_thumb.png
+     :alt: SGD on Instances
+
+     :ref:`sphx_glr_examples_python_plot_sgd_instances.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_sgd_instances
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Example for optimizing a Multi-Layer Perceptron (MLP) setting priors over the optimum on the hy...">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_user_prior_mlp_thumb.png
+     :alt: HPO with User Priors over the Optimum
+
+     :ref:`sphx_glr_examples_python_plot_user_prior_mlp.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_user_prior_mlp
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Example for optimizing a Multi-Layer Perceptron (MLP) using multiple budgets. Since we want to ...">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_mlp_mf_thumb.png
+     :alt: MLP with Multi-Fidelity
+
+     :ref:`sphx_glr_examples_python_plot_mlp_mf.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_mlp_mf
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example builds on SVM with Cross-Validation.">
+
+.. only:: html
+
+ .. figure:: /examples/python/images/thumb/sphx_glr_plot_scalarized_multi_objective_thumb.png
+     :alt: Scalarized Multi-Objective Using ParEGO
+
+     :ref:`sphx_glr_examples_python_plot_scalarized_multi_objective.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/python/plot_scalarized_multi_objective
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
@@ -364,19 +317,12 @@ Hyperband
     :class: sphx-glr-footer-gallery
 
 
-  .. container:: sphx-glr-download
+  .. container:: sphx-glr-download sphx-glr-download-python
 
-    :download:`Download all examples in Python source code: examples_python.zip <//home/runner/work/SMAC3/SMAC3/doc/examples/examples_python.zip>`
-
-
-
-  .. container:: sphx-glr-download
-
-    :download:`Download all examples in Jupyter notebooks: examples_jupyter.zip <//home/runner/work/SMAC3/SMAC3/doc/examples/examples_jupyter.zip>`
+    :download:`Download all examples in Python source code: examples_python.zip </examples/examples_python.zip>`
 
 
-.. only:: html
 
- .. rst-class:: sphx-glr-signature
+  .. container:: sphx-glr-download sphx-glr-download-jupyter
 
-    `Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_
+    :download:`Download all examples in Jupyter notebooks: examples_jupyter.zip </examples/examples_jupyter.zip>`

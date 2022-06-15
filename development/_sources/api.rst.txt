@@ -1,24 +1,19 @@
-API Documentation
-=================
+API References
+==============
 
-.. automodule:: smac
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. autosummary::
+   :toctree: api
+   :recursive:
 
-.. toctree::
-
-    apidoc/smac.callbacks
-    apidoc/smac.configspace
-    apidoc/smac.epm
-    apidoc/smac.facade
-    apidoc/smac.initial_design
-    apidoc/smac.intensification
-    apidoc/smac.optimizer
-    apidoc/smac.runhistory
-    apidoc/smac.scenario
-    apidoc/smac.stats
-    apidoc/smac.tae
-    apidoc/smac.utils
-    apidoc/smac.smac_cli
-
+   smac.epm
+   smac.facade
+   smac.initial_design
+   smac.intensification
+   smac.optimizer
+   smac.runhistory
+   smac.scenario
+   smac.smac_cli
+   smac.stats
+   smac.tae
+   smac.callbacks
+   smac.utils
